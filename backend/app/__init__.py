@@ -1,0 +1,1 @@
+"""SemiTest AI backend application."""

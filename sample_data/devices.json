@@ -1,0 +1,22 @@
+[
+  {
+    "part_number": "MOS-IRF540N",
+    "device_type": "MOSFET",
+    "manufacturer": "Illustrative Semiconductor",
+    "description": "Sample MOSFET master record",
+    "package_type": "TO-220",
+    "rated_voltage": 100,
+    "rated_current": 33,
+    "status": "Active"
+  },
+  {
+    "part_number": "DIODE-1N4148",
+    "device_type": "Diode",
+    "manufacturer": "Illustrative Semiconductor",
+    "description": "Sample switching diode master record",
+    "package_type": "DO-35",
+    "rated_voltage": 100,
+    "rated_current": 0.3,
+    "status": "Active"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Illustrative MOSFET Profile",
+    "device_type": "MOSFET",
+    "description": "Illustrative limits for prototype simulation only.",
+    "parameters": [
+      {"parameter_name": "VGS Threshold", "unit": "V", "lower_limit": 1.5, "upper_limit": 4.5, "nominal_value": 3.0},
+      {"parameter_name": "RDS(on) Estimate", "unit": "mOhm", "lower_limit": 20.0, "upper_limit": 80.0, "nominal_value": 45.0},
+      {"parameter_name": "IDSS", "unit": "uA", "lower_limit": 0.0, "upper_limit": 50.0, "nominal_value": 20.0}
+    ]
+  }
+]

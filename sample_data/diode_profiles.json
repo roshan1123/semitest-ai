@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Illustrative Diode Profile",
+    "device_type": "Diode",
+    "description": "Illustrative limits for prototype simulation only.",
+    "parameters": [
+      {"parameter_name": "Forward Voltage", "unit": "V", "lower_limit": 0.5, "upper_limit": 1.2, "nominal_value": 0.8},
+      {"parameter_name": "Reverse Leakage", "unit": "uA", "lower_limit": 0.0, "upper_limit": 10.0, "nominal_value": 2.0}
+    ]
+  }
+]

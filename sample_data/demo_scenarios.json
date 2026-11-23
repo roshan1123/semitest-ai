@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Normal MOSFET",
+    "device_part_number": "MOS-IRF540N",
+    "scenario": "NORMAL",
+    "random_seed": 12345,
+    "expected": "Synthetic result normally within illustrative limits"
+  },
+  {
+    "name": "Abnormal MOSFET",
+    "device_part_number": "MOS-IRF540N",
+    "scenario": "ABNORMAL",
+    "random_seed": 42,
+    "expected": "At least one synthetic measurement outside its configured limit"
+  },
+  {
+    "name": "Invalid Diode",
+    "device_part_number": "DIODE-1N4148",
+    "scenario": "INVALID",
+    "random_seed": 123,
+    "expected": "REVIEW due to missing or invalid synthetic measurement"
+  }
+]
